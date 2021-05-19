@@ -1,0 +1,161 @@
+<mat-grid-list [cols]="6" rowHeight="2rem">
+
+    <mat-grid-tile [colspan]="6" [rowspan]="1">
+        <mat-toolbar >
+            <span class="material-icons">email</span>
+            <span class="mat-body-1"> hello@colorli.com </span>
+            <span class="mat-body-1">free shipping for all order over 599</span>
+            <div class="spacer"></div>
+
+                <button mat-icon-button >
+                    <mat-icon>facebook</mat-icon>
+                  </button>
+                  <button mat-icon-button >
+                    <mat-icon>login</mat-icon>
+                  </button>
+                  
+            </mat-toolbar> 
+      </mat-grid-tile>
+
+      <mat-grid-tile [colspan]="6" [rowspan]="2">
+        <mat-toolbar class="">
+        <span class="logo">ORGANI<mat-icon>eco</mat-icon></span>
+        <div class="spacer"></div>
+          <nav class="">       
+            <a mat-button>Home</a> 
+            <a mat-button>About</a>
+            <a mat-button>Blog</a>
+            <a mat-button>Contact</a>
+        </nav>
+<!---->
+            <button mat-icon-button >
+            <span class="material-icons" matBadge="1"  matBadgeSize="small">
+                favorite
+                </span>
+            </button>
+                <button mat-icon-button >
+                <span class="material-icons" matBadge="4" matBadgeSize="small">
+                  shopping_basket
+                  </span>
+                </button>
+        </mat-toolbar>
+      </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" [rowspan]="12">
+          <mat-nav-list dense >
+            
+            <a mat-list-item href="" >
+              <mat-toolbar color="primary">
+                <button
+                  type="button"
+                  aria-label="Toggle sidenav"
+                  mat-icon-button
+                  >
+                  <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+                </button>
+                <span>All Departments</span>
+              </mat-toolbar> 
+            </a>
+            <div class="align"> 
+            <a mat-list-item href="" >Fresh Meat </a>
+            <a mat-list-item href="" >Vegetables </a>
+            <a mat-list-item href="" >Fruit & Nut Gifts </a>
+            <a mat-list-item href="" >Fresh Berries </a>
+            <a mat-list-item href="" >Ocean Foods </a>
+            <a mat-list-item href="" >Butter & Eggs </a>
+            <a mat-list-item href="" >Fastfood </a>
+            <a mat-list-item href="" >Fresh Onion </a>
+          </div>
+         </mat-nav-list>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="5" [rowspan]="2">
+        <mat-toolbar>
+            <mat-form-field appearance="">
+                <mat-label class="mat-body-2">All Categories</mat-label>
+                <mat-select>
+                <mat-option value="one">First option</mat-option>
+                <mat-option value="two">Second option</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="">
+                <mat-label>What do you need ?</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <button mat-flat-button color="primary">search</button>
+            <mat-list>
+              <div class="spacer"></div>
+            <mat-list-item>
+                <mat-icon matListIcon>call</mat-icon>
+                <h1 matLine>+65.11.888.521</h1>
+                <p matLine>Support 24/7</p>
+            </mat-list-item>
+        </mat-list>
+        </mat-toolbar>
+
+    
+    </mat-grid-tile>
+
+    
+    <mat-grid-tile [colspan]="5" [rowspan]="10">
+           <img src="..//..//assets/images/advt_main.JPG" alt="" class="tile-image">
+      </mat-grid-tile>
+
+      <mat-grid-tile [colspan]="6" [rowspan]="5">
+          <mat-card>
+            <img mat-card-lg-image src="..//..//assets/images/freshfruit.JPG" alt="">
+          </mat-card>
+          <div class="spacer"></div>
+          <mat-card>
+            <img mat-card-lg-image src="..//..//assets/images/drinkfruits.JPG" alt="">
+           </mat-card>
+           <div class="spacer"></div>
+           <mat-card>
+            <img mat-card-lg-image src="..//..//assets/images/driedfruit.JPG" alt="">
+          </mat-card>
+          <div class="spacer"></div>
+          <mat-card>
+            <img mat-card-lg-image src="..//..//assets/images/vegetables.JPG" alt="">
+          </mat-card>
+          
+      </mat-grid-tile>
+
+      <mat-grid-tile [colspan]="6" [rowspan]="8">
+        <mat-tab-group >
+          <mat-tab label="All" >
+             <img mat-card-lg-image src="..//..//assets/images/meat0.JPG" alt="" >
+             <img mat-card-lg-image src="..//..//assets/images/banana0.JPG" alt="">
+             <img mat-card-lg-image src="..//..//assets/images/guava0.JPG" alt="">
+             <img mat-card-lg-image src="..//..//assets/images/meat0.JPG" alt="">
+        </mat-tab>
+        
+          <mat-tab label="Oranges">
+            <img mat-card-lg-image src="..//..//assets/images/org1.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/org2.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/org3.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/org4.JPG" alt="">
+        </mat-tab>
+        
+        
+          <mat-tab label="Fresh Meat">
+            <img mat-card-lg-image src="..//..//assets/images/meat1.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/meat2.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/meat3.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/meat4.JPG" alt="">
+         </mat-tab>
+          <mat-tab label="Vegetables"> 
+            <img mat-card-lg-image src="..//..//assets/images/veg1.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/veg2.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/veg3.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/veg4.JPG" alt="">
+         </mat-tab>
+        
+          <mat-tab label="Fastfood"> 
+            <img mat-card-lg-image src="..//..//assets/images/fast1.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/fast2.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/fast3.JPG" alt="">
+            <img mat-card-lg-image src="..//..//assets/images/fast4.JPG" alt="">
+        </mat-tab>
+        </mat-tab-group>
+      </mat-grid-tile>
+  </mat-grid-list>
