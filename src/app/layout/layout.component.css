@@ -1,0 +1,23 @@
+mat-grid-tile{
+    background-color: lightblue;
+}
+
+
+.tile-image {
+    
+    height: auto;
+  }
+
+.spacer{
+    flex: 1 1 auto;
+}
+
+mat-list-item{
+text-align: center;
+padding: 10px;
+}
+
+.mat-tab img
+{
+width:300px;
+}
